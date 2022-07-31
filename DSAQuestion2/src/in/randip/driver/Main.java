@@ -51,16 +51,16 @@ public class Main {
 		//System.out.println("\nROOT Node data=>" + tree.root.data);
 		//System.out.println("\nHEAD Node data=>" + tree.headNode.data);
 
-		/* Direct traversal following the right pointer 
-		System.out.println("\nRight Skewed traversal after skew operation");
+
+		System.out.println("Output (Right Skewed traversal after skew operation)");
 		tree.traverseRightSkewed(tree.headNode); //tree.headNode is representing the top of the skewed tree
 		System.out.println("\n");
-		 */
 
+		/* For debug purpose - Level order traversal of the skewed tree
 		System.out.println("Output (Level order traversal of the Skewed tree)");
 		tree.levelOrder(tree.headNode);  //tree.headNode is representing the top of the skewed tree
-
 		System.out.println();
+		 */
 
 	}
 
